@@ -1,0 +1,127 @@
+
+.Apple-box{
+  width: 720px;
+  height: 720px;
+  border: 3px solid #ddd;
+  margin: 30px auto;
+  border-radius: 5px;
+}
+
+.Apple-title{
+  font-size: 28px;
+  color: #069;
+  line-height: 80px;
+  text-align: center;
+  border-bottom: 1px dashed #ddd;
+}
+
+.main-top{
+  height: 150px;
+  border-bottom: 1px dashed #ddd;
+}
+
+.main-top-left{
+  width: 50%;
+  display: inline-block;
+  border-right: 1px solid #ddd;
+  /*background: linen;*/
+  position: relative;
+  margin-left: -1px;
+  height: 100%;
+}
+
+.main-top-right{
+  width: 50%;
+  display: inline-block;
+  height: 100%;
+}
+
+.Basket-box .title{
+  height: 70px;
+  line-height: 70px;
+  font-size: 28px;
+  color: #069;
+  padding-left: 50px;
+  text-align: left;
+}
+
+.Basket-box .content{
+  height: 80px;
+  line-height: 80px;
+  font-size: 20px;
+  padding-left: 50px;
+  text-align: left;
+}
+
+.main-foot{
+  height: 360px;
+  overflow-y: auto;
+  border-bottom: 1px dashed #ddd;
+}
+
+.EatApple-box {
+  width: 80%;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px auto;
+}
+
+.EatApple-box div{
+  height: 80px;
+  border: 1px solid #ddd;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.EatApple-box div img{
+  float: left;
+}
+
+.EatApple-box div span:nth-child(2){
+  display: inline-block;
+  line-height: 80px;
+  color: #999;
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 22px;
+}
+
+.Eat-apple-btn {
+  border: 1px solid #00f;
+  height: 36px;
+  line-height: 36px;
+  float: right;
+  padding: 0 15px;
+  border-radius: 5px;
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-right: 30px;
+  color: #000;
+  cursor: pointer;
+}
+.Eat-apple-btn:hover {
+  color: #fff;
+  background: #00f;
+}
+
+.foot-btn{
+  display: inline-block;
+  width: 220px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 22px;
+  border: 1px solid #00f;
+  border-radius: 5px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.Apple-null {
+  line-height: 80px;
+  text-align: center!important;
+}
+
+.foot-btn:hover{
+  color: #fff;
+  background: #00f;
+}
