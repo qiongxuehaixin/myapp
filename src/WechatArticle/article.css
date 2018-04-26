@@ -1,0 +1,47 @@
+.weixin_tab_article{
+    margin: 20px auto;
+    width: 1120px;
+    text-align: left;
+}
+.weixin_tab_article a{
+    padding: 5px 10px;
+    border: 1px solid #DCDCDC;
+    display: inline-block;
+
+}
+.weixin_tab_article .article_nav0{
+    background: #FCD252;
+}
+.article_nav{
+    background: #F5F5F5;
+    color: #000000;
+}
+.article_nav:hover{
+    background: #FF3265;
+    color: #000000;
+}
+.article_content_dv dl{
+    width: 600px;
+    padding: 10px 5px;
+    border-bottom: 1px dotted #DCDCDC;
+    margin-left: 50px;
+}
+.article_content_dv dl img{
+    width: 180px;
+    height: 138px;
+}
+.article_content_dv dl,.article_content_dv dl dt,.article_content_dv dl dd{
+    display: inline-block;
+}
+.article_content_dv dl dd{
+    width: 369px;
+    height: 107px;
+    text-align: left;
+    padding-left: 10px;
+}
+.article_content_dv dl dt{
+    vertical-align: top;
+}
+.reader_article,.release_time{
+    padding-right: 20px;
+}

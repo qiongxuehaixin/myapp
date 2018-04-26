@@ -1,0 +1,102 @@
+.area-outbox {
+  width: 1200px;
+  margin: 0 auto 30px;
+  text-align: left;
+  padding: 20px 0;
+  /* background: pink; */
+  min-height:200px;
+}
+
+.area-outbox .weixin-typebox{
+  border: 2px solid #323436;
+  width: 250px;
+
+}
+
+.area-outbox .weixin-typebox h2,
+.area-outbox .weixin-typebox h3
+{
+  text-indent: 1em;
+  height:40px;
+  line-height: 40px;
+  margin-bottom: 0;
+}
+
+.area-outbox .weixin-typebox h2{
+  background: #323436;
+  color: #fff;
+}
+
+.area-outbox .weixin-typebox h3{
+  background: #efefef;
+  color: #000;
+}
+
+.area-outbox .weixin-typebox button{
+  border: none;
+}
+
+.area-outbox .area-name-box{
+  width: 930px;
+}
+
+.area-outbox .upper-letter{
+  text-indent: 1em;
+  height: 40px;
+  line-height: 40px;
+  background: #F2F2F2;
+}
+
+.area-outbox .upper-letter button{
+  border: none;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+/*  城市名称  */
+.city-name-box {
+  width: 100%;
+  border: 1px solid #ccc;
+  /* min-height: 200px; */
+  display: table;
+}
+
+.city-name-box  .city-name-item{
+  display: table-row;
+  height: auto;
+  line-height: normal;
+   position: relative;
+}
+
+.city-name-box  .upperCase{
+  display: table-cell;
+ width:60px;
+ text-align: center;
+ font-size: 22px;
+ line-height: 60px;
+}
+
+.city-name-box  .name-box {
+  display: table-cell;
+  margin-left: 60px;
+  line-height: 40px;
+}
+
+.city-name-box  button{
+  border: none;
+}
+
+.city-name-box  .city-name-box-row>div{
+  width: 100%;
+  display: table;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom:20px;
+}
+
+.city-name-box  .city-name-box-row:last-child>div{
+  border-bottom: transparent;
+}
+
+.city-name-box  .city-name-box-row:nth-child(2n-1)>div{
+  background: #f8f8f8;
+}
