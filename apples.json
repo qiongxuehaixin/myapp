@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "weight": 235,
+        "isEaten": false,
+        "name":"红苹果-1号"
+    },
+    {
+        "id": 2,
+        "weight": 256,
+        "isEaten": false,
+        "name":"红苹果-1号"
+    },
+    {
+        "id": 3,
+        "weight": 260,
+        "isEaten": false,
+        "name":"黑苹果-1号"
+    },
+    {
+        "id": 4,
+        "weight": 210,
+        "isEaten": false,
+        "name":"黑苹果-9号"
+    }
+]
